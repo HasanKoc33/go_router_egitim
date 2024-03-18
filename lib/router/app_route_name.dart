@@ -1,0 +1,1 @@
+/// AppRouteName enumenum AppRouteName {    screen1('/screen1','Screen1'),    screen2('/screen2','Screen2'),    screen3('/screen3','Screen3'),    screen4('/screen4','Screen4'),  ;  const AppRouteName(this.path,this.name);  /// AppRouteName degeri  final String path;  final String name;}
