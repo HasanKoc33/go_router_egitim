@@ -1,16 +1,19 @@
-# untitled1
+# Go router Egirimi
 
-A new Flutter project.
+video : https://www.youtube.com/watch?v=_yFUC2mro-Y&lc=UgyqC_O35hc81Gkir_N4AaABAg
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## videoda geçen bağzı komutlar
 
-A few resources to get you started if this is your first Flutter project:
+>- Bir sayfanın üzerine başka bir sayfa açmak
+>- `context.push('Yeni sayfanın yolu');`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+>- geride sayfa bırakmadan geçiş için
+>- `context.go('Yeni sayfanın yolu');`
+
+
+
+>- Var olan sayfayı öldürüp bir gerideki (eğer var ise) sayfaya dönmek için
+>- ekranda açılan herhangi bir dialog u da kapatmak için
+>- `context.pop();`
